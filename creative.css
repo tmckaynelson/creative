@@ -67,3 +67,24 @@ nav {
 .fa-linkedin {
     color: #0084bf;
 }
+
+.wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "info message";
+    display: grid;
+}
+
+.info {
+    grid-area: info;
+    display: block;
+}
+
+.message {
+    grid-area: message;
+    display: block;
+}
+
+textarea {
+
+    resize: none;
+}
