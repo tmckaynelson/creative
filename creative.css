@@ -84,7 +84,18 @@ nav {
     display: block;
 }
 
-textarea {
+.btn-primary {
+    background-color: #6495ed;
+    border-color: #6495ed;
+    color: #372a7c;
+}
 
+.btn-primary:hover {
+    color: #372a7c;
+    background-color: #5077BD;
+    border-color: #5077BD;
+}
+
+textarea {
     resize: none;
 }
